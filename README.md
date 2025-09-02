@@ -173,31 +173,27 @@ lib/
    - Download and add  ```google-services.json ``` to  ```android/app/ ```
    - Download and add  ```GoogleService-Info.plist ``` to  ```ios/Runner/ ```
 
-4. **Firebase Setup**
-   - Create a new Firebase project at Firebase Console
-   - Enable Authentication with Email/Password provider
-   - Enable Realtime Database with these rules:
-     ```bash
-     {
-        "rules": {
-          "chats": {
-            ".read": "auth != null",
-            ".write": "auth != null"
-          },
-          "chatMessages": {
-            ".read": "auth != null",
-            ".write": "auth != null"
-          },
-          "userChats": {
-            ".read": "auth != null",
-            ".write": "auth != null"
-          }
-        }
-     }
+4. **AdMob Setup**
+   - Create AdMob account at [AdMob Console](https://admob.google.com/)
+   - Create new app with name "CogniVia"
+   - Create Banner ad unit: "CogniVia Banner"
+   - Create Interstitial ad unit: "CogniVia Interstitial" 
+   - Add App ID to `android/app/src/main/AndroidManifest.xml`:
+     ```xml
+     <meta-data
+         android:name="com.google.android.gms.ads.APPLICATION_ID"
+         android:value="ca-app-pub-XXXXXXXX~XXXXXXXXX"/>
      ```
-  - Download and add  ```google-services.json ``` to  ```android/app/ ```
-  - Download and add  ```GoogleService-Info.plist ``` to  ```ios/Runner/ ```
-
+   - Add App ID to `ios/Runner/Info.plist`:
+     ```xml
+     <key>GADApplicationIdentifier</key>
+     <string>ca-app-pub-XXXXXXXX~XXXXXXXXX</string>
+     ```
+   - Update ad unit IDs in `lib/core/services/ad_manager.dart`:
+     ```dart
+     static const String _bannerAdUnitId = 'ca-app-pub-XXXXXXXX/XXXXXXXXX';
+     static const String _interstitialAdUnitId = 'ca-app-pub-XXXXXXXX/XXXXXXXXX';
+     ```
        
 4. **Run the app**
    ```bash
@@ -206,4 +202,91 @@ lib/
 
 ---
 
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0                    # Firebase core functionality
+  firebase_auth: ^4.17.8                    # Firebase authentication
+  firebase_database: ^10.4.8                # Realtime database for chat
+  google_mobile_ads: ^5.3.1                 # Google Mobile Ads integration
+  provider: ^6.1.2                          # State management
+  cupertino_icons: ^1.0.2                   # iOS style icons
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0                     # Code linting
+```
+
+---
+
+## 🎯 Key Features Implementation
+
+### 🧠 AI-Powered Quiz System
+- Smart question generation and scoring  
+- Progress tracking with detailed analytics  
+- Professional purple headers with theme toggle  
+- Quiz history and performance metrics  
+
+### 📋 Intelligent Task Management
+- Priority-based task filtering  
+- Professional search and filter UI  
+- Real-time task status updates  
+- Beautiful gradient styling  
+
+### 💬 Real-Time Chat
+- Firebase Realtime Database integration  
+- WhatsApp-style message persistence  
+- Professional gradient search functionality  
+- Instant message delivery  
+
+### 🎯 Google Mobile Ads
+- Persistent banner ads in onboarding  
+- Strategic interstitial ad placement  
+- Optimized ad loading and display  
+
+## 🎨 Design System
+
+**Color Palette**
+- Primary Purple: `Color(0xFF6C63FF)` *(gradientStart)*  
+- Secondary Purple: `Color(0xFF9C7EFF)` *(gradientEnd)*  
+- Dark Theme: Professional dark backgrounds  
+- Light Theme: Clean white and gray tones  
+
+**Typography**
+- Material Design 3 typography scale  
+- Professional headers with white text on purple  
+- Gradient text effects for emphasis  
+
+
+---
+
+## 🎯 Future Enhancements
+
+- [ ] 🤖 Advanced AI quiz personalization
+- [ ] 📊 Detailed analytics dashboard
+- [ ] 👥 Group chat functionality
+- [ ] 🔔 Push notifications
+- [ ] 📱 Tablet optimization
+- [ ] 🌍 Multi-language support
+- [ ] 🎵 Voice messages in chat
+- [ ] 📈 Advanced progress tracking
+
+
+---
+
+## 🙌 Author
+
+**Muhammad Attaullah**  
+Feel free to connect or contribute to this project.
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/M-Attaullah) [*M-Attaullah*](https://github.com/M-Attaullah)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-attaullah-705764333/) [*Muhammad Attaullah*](https://www.linkedin.com/in/muhammad-attaullah-705764333/)
+
+---
+
+> 📌 *🧠 CogniVia was developed as a comprehensive Flutter application showcasing MVVM architecture, Firebase integration, Google Mobile Ads, and modern Material Design 3 with AI-powered cognitive enhancement features.*
 
