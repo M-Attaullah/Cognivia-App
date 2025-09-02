@@ -139,7 +139,7 @@ lib/
 ### Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Cognivia-App.git
+   git clone https://github.com/M-Attaullah/Cognivia-App
    cd Cognivia-App
     ```
    
@@ -170,8 +170,8 @@ lib/
         }
      }
      ```
-  - Download and add  ```google-services.json ``` to  ```android/app/ ```
-  - Download and add  ```GoogleService-Info.plist ``` to  ```ios/Runner/ ```
+     - Download and add  ```google-services.json ``` to  ```android/app/ ```
+     - Download and add  ```GoogleService-Info.plist ``` to  ```ios/Runner/ ```
 
 4. **Firebase Setup**
    - Create a new Firebase project at Firebase Console
