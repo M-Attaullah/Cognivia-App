@@ -149,7 +149,7 @@ lib/
    ```
 
 3. **Firebase Setup**
-   - Create a new Firebase project at Firebase Console
+   - Create a new Firebase project at [Firebase Console](https://firebase.google.com/)
    - Enable Authentication with Email/Password provider
    - Enable Realtime Database with these rules:
      ```bash
