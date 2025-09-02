@@ -288,5 +288,5 @@ Feel free to connect or contribute to this project.
 
 ---
 
-> 📌 *🧠 CogniVia was developed as a comprehensive Flutter application showcasing MVVM architecture, Firebase integration, Google Mobile Ads, and modern Material Design 3 with AI-powered cognitive enhancement features.*
+> 📌 *CogniVia was developed as a final internship project, combining multiple modules including Firebase authentication, real-time chat, task management, quiz system, and Google Mobile Ads integration with professional Flutter development practices and modern Material Design 3 UI.*
 
