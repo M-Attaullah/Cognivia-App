@@ -24,7 +24,7 @@
 
 | Splash Screen | Onboarding Screen | Banner Ads | Interstitial Ads |
 |------------|----------------|--------------|----------------|
-| ![Splash](screenshots/splash.png) | ![Onboarding](screenshots/onboarding.png) | ![Banner](screenshots/banner-ads.png) | ![Interstitial](screenshots/Interstitial.png) |
+| ![Splash](screenshots/splash.png) | ![Onboarding](screenshots/onboarding.png) | ![Banner](screenshots/banner-ads.png) | ![Interstitial](screenshots/intesterial.png) |
 
 | Main Screen | Quiz Challenge | Task Manager | Community Chat |
 |------------|----------------|--------------|------------|
