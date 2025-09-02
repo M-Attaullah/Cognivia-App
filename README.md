@@ -22,13 +22,13 @@
 
 ## 📱 Screenshots
 
-| Onboarding | Quiz Challenge | Task Manager | Community Chat |
+| Splash Screen | Onboarding Screen | Banner Ads | Interstitial Ads |
 |------------|----------------|--------------|----------------|
-| ![Onboarding](screenshots/onboarding.png) | ![Quiz](screenshots/quiz.png) | ![Tasks](screenshots/tasks.png) | ![Chat](screenshots/chat.png) |
+| ![Splash](screenshots/splash.png) | ![Onboarding](screenshots/onboarding.png) | ![Banner](screenshots/banner-ads.png) | ![Interstitial](screenshots/intesterial-ads.png) |
 
-| Dark Theme | Purple Headers | Quiz Results | Banner Ads |
+| Main Screen | Quiz Challenge | Task Manager | Community Chat |
 |------------|----------------|--------------|------------|
-| ![Dark](screenshots/dark-theme.png) | ![Headers](screenshots/headers.png) | ![Results](screenshots/results.png) | ![Ads](screenshots/ads.png) |
+| ![Main](screenshots/main.png) | ![Quiz](screenshots/quiz.png) | ![Task](screenshots/task.png) | ![Chat](screenshots/chat.png) |
 
 ---
 
