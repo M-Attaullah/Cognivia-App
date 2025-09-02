@@ -170,8 +170,8 @@ lib/
         }
      }
      ```
-     - Download and add  ```google-services.json ``` to  ```android/app/ ```
-     - Download and add  ```GoogleService-Info.plist ``` to  ```ios/Runner/ ```
+   - Download and add  ```google-services.json ``` to  ```android/app/ ```
+   - Download and add  ```GoogleService-Info.plist ``` to  ```ios/Runner/ ```
 
 4. **Firebase Setup**
    - Create a new Firebase project at Firebase Console
