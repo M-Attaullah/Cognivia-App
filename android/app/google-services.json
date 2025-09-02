@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "923702042051",
+    "firebase_url": "https://cognivia-f7979-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cognivia-f7979",
+    "storage_bucket": "cognivia-f7979.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923702042051:android:dbcc43c32a108a514c3176",
+        "android_client_info": {
+          "package_name": "com.example.cognivia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA73VKAIC1narFX9XPrunR2HhyxXhhWcI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
