@@ -26,9 +26,9 @@
 |------------|----------------|--------------|----------------|
 | ![Splash](screenshots/splash.png) | ![Onboarding](screenshots/onboarding.png) | ![Banner](screenshots/banner-ads.png) | ![Interstitial](screenshots/intesterial.png) |
 
-| Main Screen | Quiz Challenge | Task Manager | Community Chat |
+| Main Screen | Task Manager | Quiz Challenge | Community Chat |
 |------------|----------------|--------------|------------|
-| ![Main](screenshots/main.png) | ![Quiz](screenshots/quiz.png) | ![Task](screenshots/task.png) | ![Chat](screenshots/chat.png) |
+| ![Main](screenshots/main.png) | ![Task](screenshots/task.png) | ![Quiz](screenshots/quiz.png) | ![Chat](screenshots/chat.png) |
 
 ---
 
